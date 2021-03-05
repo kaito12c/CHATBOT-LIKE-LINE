@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const personal = {
+         name: "月館",
+         email:"kaito.cesc@gmail.com",
+         tel:"080-1870-7839"
+        //  終わりのときに . はいらない。
+        }
+        console.log(personal.email.indexOf("a"));
+        // personalで全ての情報を取れる。
+        // .emailなどで抜き取りたい情報だけ取れる
+        // console.log(personal.email.indexOf("a"));
+        // indexOf("a") =文字の中にaが入っているよ。という検索ができる
+
+        const personals = {
+            person1 :{
+                name:"月館",
+                email:"kaito.cesc@gmail.com",
+                tel:"080-1870-7839"
+
+            },
+            // ↑に必ず,(Comma)を入れる。＝続きがあるよってえ意味。
+            person2 :{
+                name:"山本",
+                email:"t-kaito@spc.ritsumei.ac.jp",
+                tel:"011-875-6120"
+            }
+        }
+        console.log(personals.person2.email)
+
+    </script>
+</body>
+</html>

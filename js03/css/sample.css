@@ -1,0 +1,158 @@
+.head{
+    display: flex;
+    background-color: #273246;
+    width: 600px;
+    position: relative;
+    padding-right: 10px;
+}
+.head-title{
+    height: 50px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.aisatsu{
+    padding-top: 10px;
+    display: block;
+}
+.trim-image-to-circle {
+    margin: 5px 5px 5px 10px;
+    background-image: url("summerriver.jpg");  /* 表示する画像 */
+    width:  50px;       /* ※縦横を同値に */
+    height: 50px;       /* ※縦横を同値に */
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: top;  /* 横長画像の左上を基準に表示 */
+    display: inline-block;          /* 複数の画像を横に並べたい場合 */
+    background-color: #fff;
+}
+
+.kaeru-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.chatbot {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 300px;
+    width: 90%;
+  }
+  .chatbot__text {
+    background:lightslategrey;
+    color: #fff;
+    padding: 3px 5px 3px 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 1px 2px 3px rgb(255 255 255 / 30%);
+    margin-bottom: 5px;
+
+  }
+
+.ai-chat{
+    top: -50px;
+    left: 50px;
+}
+.chat-area {
+    background: #8DB4E5;
+}
+
+.message-area {
+    height: 10px;
+    display: flex;
+   }
+
+.message-area-button {
+    width: 60px;
+    height: 30px;
+    background: #61E739;
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: bold;
+    border: 0;
+   }
+
+.bottom-area{
+    display: flex;
+}
+
+.imgs{
+    display: none;
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+
+
+}
+
+dl{
+    display: flex;
+}
+dd{
+    padding: auto;
+}
+
+.time{
+    font-size: 10px;
+
+    color: ivory;
+}
+.msg{
+    margin-left: 5px;
+    display: block;
+    max-height: 50px;
+    
+}
+
+.text{
+    margin-top: 20px;
+    background-color: green;
+}
+
+#output {
+    height: 600px;
+  }
+  .chat__date {
+    position: absolute;
+    top: -1px;
+    left: 75px;
+    text-shadow: 1px 1px rgb(255 255 255 / 90%);
+  }
+  .chat__text {
+    background: limegreen;
+    color: #fff;
+    padding: 3px 5px 3px 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 1px 2px 3px rgb(255 255 255 / 30%);
+    margin-bottom: 5px;
+
+  }
+  .chat {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    width: 90%;
+  }
+
+  .chat:nth-of-type(odd) {
+    margin-right: auto;
+  }
+
+  .chat__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .chat__img img {
+    max-width: 100%;
+  }
